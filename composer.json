@@ -1,0 +1,32 @@
+{
+    "name": "netsilik/env",
+    "description": "Env - the type aware env reader.",
+    "keywords": ["env", "environment variables"],
+    "type": "library",
+    "license": "MIT",
+	"homepage": "https://gitlab.com/Netsilik/Env",
+    "authors": [
+        {
+            "name": "Jacco-V",
+            "role": "Developer",
+            "homepage": "http://netsilik.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+	},
+    "require-dev": {
+		"netsilik/base-test-case": "^0.9",
+		"phpunit/phpunit": "^8.2"
+	},
+    "autoload": {
+		"files": [
+			"src/env.php"
+		]
+    },
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "tests/"
+		}
+	}
+}
