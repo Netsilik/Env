@@ -1,5 +1,5 @@
 <?php
-namespace App\Helpers\functions;
+namespace Netsilik\Helpers\functions;
 
 /**
  * @copyright (c) 2011-2016 Netsilik (http://netsilik.nl)
